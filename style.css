@@ -28,7 +28,7 @@ img {
   width: 100%;
 }
 
-py-1 {
+.py-1 {
   padding: 0.75rem 0.75rem;
 }
 
@@ -39,6 +39,11 @@ py-1 {
 
 .logo {
   margin-right: auto;
+}
+
+#main-nav {
+  background-color: black;
+  color: white;
 }
 
 .nav-item {
@@ -155,4 +160,40 @@ py-1 {
   background: #363636;
   color: #ffffff;
   padding: 2rem;
+}
+
+#editor-bg {
+  background: #f6f6f6;
+  padding-top: 2rem;
+}
+
+#business h3 {
+  background: red;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #4c4c4c;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 0 1.2rem;
+  padding: 2rem 0;
+}
+
+.footer-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  border-right: 1px solid #ccc;
+}
+
+.footer-item > *:last-child {
+  border: none;
 }
