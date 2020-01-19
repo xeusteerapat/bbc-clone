@@ -130,3 +130,29 @@ py-1 {
 .card p {
   color: #212121;
 }
+
+.editor-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.editor-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding-right: 1rem;
+}
+
+.editor-card .card:first-child {
+  grid-column: 1 / span 3;
+}
+
+#editor ul {
+  display: grid;
+}
+
+#editor li {
+  background: #363636;
+  color: #ffffff;
+  padding: 2rem;
+}
